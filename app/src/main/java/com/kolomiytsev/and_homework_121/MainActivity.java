@@ -35,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
 
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
 
+        subscribe();
+        clear();
+    }
+
+    private void subscribe() {
         subscribeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,7 +53,9 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+    }
 
+    private void clear() {
         clearBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,6 +65,6 @@ public class MainActivity extends AppCompatActivity {
                 errorTv.setText("");
             }
         });
-
     }
+
 }
