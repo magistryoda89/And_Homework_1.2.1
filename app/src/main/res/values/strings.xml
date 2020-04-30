@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">And_Homework_1.2.1</string>
+    <string name="main_activity_label">Подписка</string>
+    <string name="tv_name_text">* Имя пользователя</string>
+    <string name="tv_email_text">* E-mail</string>
+    <string name="bt_subscribe_text">Подписаться</string>
+    <string name="bt_clear_text">Очистить</string>
+    <string name="bt_name_hint">Имя пользователя</string>
+    <string name="bt_email_hint">example@gmail.com</string>
+    <string name="tv_result_text">Подписка на рассылку успешно оформлена для пользователя %s на электронный адрес %s</string>
+    <string name="tv_error_text">Сначала заполните оба поля!</string>
+</resources>
